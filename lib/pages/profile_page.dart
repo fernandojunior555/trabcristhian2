@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io'; // Importe a biblioteca 'dart:io' para usar a classe File
 
-
+// class
 class ProfilePage extends StatefulWidget {
   @override
   _ProfilePageState createState() => _ProfilePageState();
 }
-
+// class
 class _ProfilePageState extends State<ProfilePage> {
   TextEditingController _nameController = TextEditingController();
   TextEditingController _emailController = TextEditingController();

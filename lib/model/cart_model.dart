@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+// class
 class CartModel extends ChangeNotifier {
   // list of items on sale
   final List _shopItems = const [

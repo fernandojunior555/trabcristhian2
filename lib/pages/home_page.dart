@@ -6,14 +6,14 @@ import '../model/cart_model.dart';
 import 'cart_page.dart';
 import 'profile_page.dart'; // Importe a tela de perfil
 import 'developer_help_page.dart';
-
+// class
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
   @override
   State<HomePage> createState() => _HomePageState();
 }
-
+// class
 class _HomePageState extends State<HomePage> {
   String selectedOption = 'Option 1';
   bool isProfileButtonTapped = false; // Variável para controlar a animação do botão
